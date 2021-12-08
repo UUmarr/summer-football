@@ -1,0 +1,96 @@
+body{
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+   
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+li{
+    display: inline;
+    margin-right: 70px;
+}
+li.menu{
+    color: #01D98B;
+}
+
+button{
+    color: black;
+    background-color:;
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    height: 45px;
+    width: 100px;
+    margin-right: 3rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding-top: 9rem;
+  }
+  
+  
+  .left {
+    left: 0;
+  }
+  
+  
+  .right {
+    right: 0;
+    
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.small-text{
+    position: absolute;
+    padding-top: 10px;
+    left: 77px;
+}
+.big-text{
+    position: absolute;
+    padding-top: 60px;
+    left: 76px;
+}
+.small2{
+    position: absolute;
+    padding-top: 10rem;
+    left: 77px;
+}
+.search{
+    position: absolute;
+    padding-top: 15rem;
+    left: 0;
+}
